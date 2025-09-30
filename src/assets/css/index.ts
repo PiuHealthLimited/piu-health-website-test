@@ -1,0 +1,9 @@
+import './theme.css';
+import './bootstrap.min.css';
+import './fontawesome-all.min.css';
+import './ionicons.min.css';
+import './owl.carousel.css';
+import './circle.css';
+import './typography.css';
+import './style.css';
+import './responsive.css';

@@ -1,0 +1,52 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Node dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+logs/
+
+# Environment variables
+.env
+
+# Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+dist/
+dist-ssr
+build/
+coverage/
+*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# NPM & ESLint cache
+.npm/
+.eslintcache
+
+# Packed tarballs
+*.tgz
+
+# Yarn files
+.yarn-integrity
+
+# Temporary files
+.tmp/

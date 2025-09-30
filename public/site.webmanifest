@@ -1,0 +1,17 @@
+{
+  "name": "PiuHealth",
+  "short_name": "PiuHealth",
+  "description": "PiuHealth blends preventive care, portable records, and trusted AI guidance to support everyday health decisions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3d9f93",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
