@@ -757,7 +757,7 @@
 .ion-xbox:before {
   display: inline-block;
   font-family: 'Ionicons';
-  speak: none;
+  /*speak: none;*/ /*Ignored this line*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

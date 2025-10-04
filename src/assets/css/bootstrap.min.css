@@ -248,7 +248,10 @@ select {
 [type='submit'],
 button,
 html [type='button'] {
-  -webkit-appearance: button;
+  /*Added(Firefox,Standard)*/
+  -webkit-appearance: button; /* Safari, older versions of Chrome */
+  -moz-appearance: button; /* Firefox */
+  appearance: button; /* Standard */
 }
 [type='button']::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
@@ -266,7 +269,9 @@ input[type='date'],
 input[type='datetime-local'],
 input[type='month'],
 input[type='time'] {
+  /*Added(Standard)*/
   -webkit-appearance: listbox;
+  appearance: listbox; /* Standard syntax */
 }
 textarea {
   overflow: auto;
@@ -297,8 +302,10 @@ progress {
   height: auto;
 }
 [type='search'] {
+  /*Added(Standard)*/
   outline-offset: -2px;
   -webkit-appearance: none;
+  appearance: none; /* Standard */
 }
 [type='search']::-webkit-search-cancel-button,
 [type='search']::-webkit-search-decoration {
@@ -4881,7 +4888,9 @@ button.close {
   padding: 0;
   background-color: transparent;
   border: 0;
-  -webkit-appearance: none;
+  /*Added(Standard)*/
+  -webkit-appearance: none; /* WebKit (Safari, old Chrome) */
+  appearance: none; /* Standard */
 }
 .modal-open {
   overflow: hidden;

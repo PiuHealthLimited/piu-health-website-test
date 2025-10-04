@@ -110,20 +110,25 @@
     transform: rotate(1turn);
   }
 }
+/*Added->"filter" line*/
 .fa-rotate-90 {
   -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=1)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); /* Standard for IE9+ */
   transform: rotate(90deg);
 }
 .fa-rotate-180 {
   -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); /* Standard for IE9+ */
   transform: rotate(180deg);
 }
 .fa-rotate-270 {
   -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=3)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Standard for IE9+ */
   transform: rotate(270deg);
 }
 .fa-flip-horizontal {
   -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1); /* IE9+ standard */
   transform: scaleX(-1);
 }
 .fa-flip-vertical {
@@ -132,6 +137,7 @@
 .fa-flip-horizontal.fa-flip-vertical,
 .fa-flip-vertical {
   -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)';
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 }
 .fa-flip-horizontal.fa-flip-vertical {
   transform: scale(-1);

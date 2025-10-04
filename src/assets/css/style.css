@@ -449,7 +449,18 @@ header.menu-sticky .login li a:hover {
   bottom: 50px;
   width: 80%;
   -webkit-animation: rotation 300000ms infinite linear;
+  animation: rotation 300000ms infinite linear;
 }
+/* Standard keyframes for modern browsers =>ADDED*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+/* Standard keyframes for modern browsers =>ADDED*/
 @-webkit-keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
@@ -1355,6 +1366,7 @@ footer .logo {
   text-align: center;
   width: 200px;
   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-font-smoothing: antialiased;
 }
 .time-of-year .tooltip {
@@ -2028,7 +2040,7 @@ footer #footer-menu {
 }
 footer #footer-menu li {
   float: left;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-right: 30px;
 }
 footer #footer-menu li i {
@@ -2261,8 +2273,10 @@ footer.footer6 .footer-title {
 footer.construction {
   background: #f7f7f7;
 }
+/*
 footer.construction {
 }
+*/
 footer.construction .footer-title {
   color: #292929;
 }

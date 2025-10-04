@@ -67,7 +67,8 @@ export function PartnersCarousel() {
           ref={carouselRef}
           role="list"
           aria-label="Partner logos"
-          style={{ display: 'flex', overflowX: 'auto', scrollBehavior: 'smooth' }}
+          //style={{ display: 'flex', overflowX: 'auto', scrollBehavior: 'smooth' }}
+          style={{ display: 'flex', overflowX: 'hidden', scrollBehavior: 'smooth' }}
         >
           {PARTNER_LOGOS.map((client, index) => (
             <div

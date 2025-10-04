@@ -46,7 +46,8 @@ const PILLAR_SECTIONS: PillarItem[] = [
     ],
     image: portableRecordsImage,
     imageAlt: 'Portable health records illustration',
-    extraClass: 'works-arrow-01',
+    /*extraClass: 'works-arrow-01',*/
+    extraClass: 'works-arrow-01 extra-margin-top',
   },
   {
     title: 'Privacy & Security',

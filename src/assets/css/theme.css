@@ -1,4 +1,13 @@
+/*
 @theme {
+  --color-primary: #3d9f93;
+  --color-secondary: #62b9ad;
+  --color-accent: #d4fad8;
+  --color-highlight: #77e385;
+  --color-dark: #1e776b;
+}
+*/
+:root {
   --color-primary: #3d9f93;
   --color-secondary: #62b9ad;
   --color-accent: #d4fad8;

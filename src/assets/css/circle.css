@@ -29,7 +29,8 @@
   height: 80px;
   position: absolute;
   background: #ffffff;
-  color: #7d4ac7;
+  /*color: #7d4ac7;*/
+  color: #58b2a6;
   border-radius: 20px;
   text-align: center;
   line-height: 80px;
@@ -81,14 +82,20 @@
   height: 410px;
   border: 2px dotted var(--color-dark);
   border-radius: 100%;
+  /*Added(Standard)*/
   -webkit-animation: rotation 100s infinite linear;
+  animation: rotation 100s infinite linear; /* Standard */
 }
 .dotCircle .itemDot:hover,
 .dotCircle .itemDot.active {
   color: #ffffff;
   transition: 0.5s; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
   background: #7d4ac7; /* Old browsers */
-  background: -moz-linear-gradient(left, #7d4ac7 0%, var(--color-dark) 100%); /* FF3.6-15 */
+  background: -moz-linear-gradient(
+    left,
+    /*#7d4ac7 0%*/ #58b2a6,
+    var(--color-dark) 100%
+  ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     left,
     #7d4ac7 0%,
@@ -96,7 +103,7 @@
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to right,
-    #7d4ac7 0%,
+    /*#7d4ac7 0%,*/ #58b2a6,
     var(--color-dark) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='var(--color-dark)', GradientType=1); /* IE6-9 */
